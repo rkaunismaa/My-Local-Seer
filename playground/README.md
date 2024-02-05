@@ -1,0 +1,1 @@
+Content found in this folder is for experimentation of anything deemed necessary to building out this app.
