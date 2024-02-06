@@ -48,7 +48,13 @@ OK .. I can see GPT4ALL use Weaviate for its vector database ... interesting. I 
 
 Hmm I am playing with GPT4ALL but it is not using the GPU. ... ok slight settings tweak and now it works. 
 
-[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) Poking around this repo reveals it may be more to my liking. 
+[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) Poking around this repo reveals it may be more to my liking. This stuff is definetly not for end users, but seems targeted at developers.
+
+AutoGPT uses OpenAI and there does not appear to be any way to fork in an alternative, such as LMStudio. It also appears to use chromadb for its vector store. AutoGPT gives me a AutoGen feel ... a way to create agents without coding.
+
+Whelp, AutoGPT is tightly bound to OpenAI, and from the docs it appears to use PineCone as the vector store, not chromadb.
+
+I tried installing it locally and damn is it a confusing install. I think at this point I am gonna just bail on AutoGPT.
 
 
 
