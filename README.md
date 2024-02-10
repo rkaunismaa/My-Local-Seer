@@ -11,6 +11,12 @@ conda activate mls2
 Nope! not any more ... 
 conda activate mylocalseer
 
+## Saturday, February 10, 2024
+
+Today I want to focus on reading a pdf book and creating embeddings for each chapter. I want to use the embeddings to do some basic similarity search.
+
+First pdf library I want to experiment with will be [pypdf](https://pypdf.readthedocs.io/en/latest/)
+
 ## Tuesday, February 6, 2024
 
 Gonna see if I can resolved the problems with bitsandbytes. Hmm I wonder if I  create a new conda environment but use the pytorch install for cuda 11.8 if it will work...yeah ... gonna torch the current mylocalseer conda environment, then install pytorch for cuda 11.8.0 and see if that works.
@@ -55,6 +61,8 @@ AutoGPT uses OpenAI and there does not appear to be any way to fork in an altern
 Whelp, AutoGPT is tightly bound to OpenAI, and from the docs it appears to use PineCone as the vector store, not chromadb.
 
 I tried installing it locally and damn is it a confusing install. I think at this point I am gonna just bail on AutoGPT.
+
+OK. I am going to give AutoGen another quick look ...
 
 
 
