@@ -18,6 +18,10 @@ conda activate mylocalseer
 
 I kinda doubt there one standard way to extract the text from each chapter that will work for every pdf file. Seems to me there are unique nuances to every pdf that could require code tweaks. But once you have extracted the text the way you want it, storing that text in some external file should only need to be done once. 
 
+Wow, seriously?? This conda environment does not have HuggingFace Sentence Transformers installed??
+
+* mamba install conda-forge::sentence-transformers
+
 ## Saturday, February 10, 2024
 
 Today I want to focus on reading a pdf book and creating embeddings for each chapter. I want to use the embeddings to do some basic similarity search.
@@ -39,7 +43,7 @@ Actually, lets just create a new mls2 environment ...
  7) mamba install conda-forge::accelerate
  8) mamba install conda-forge::bitsandbytes 
 
- OK! Nice! This new environment is able to run the TransformersTest.ipynb notebook without errors! So the problems WERE with the version of the cuda toolkit! Good to know!
+ OK! Nice! This new environment is able to run the TransformersTest.ipynb notebook without errors! So the problems WAS with the version of the cuda toolkit! Good to know!
 
 Now going to test using the OpenAI library to talk to a local llm via LMStudio.
 
