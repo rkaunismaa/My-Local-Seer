@@ -4,12 +4,19 @@ This will be my first kick at building a fully local, gpu powered chatbot. Just 
 
 As part of this learning experience, I want to try and stay away from LangChain for as long as I can. I think going through the process of building things out yourself will give you a much better idea of why such a tool as LangChain (or LLamaIndex or HayStack or ...) was created.
 
-And this thing I want to build we be able to load local pdfs and query them via some local vector db such as Milvus, Elastic Search, Chroma or FAISS. 
+And this thing I want to build must be able to load local pdfs and query them via some local vector db such as Milvus, Elastic Search, Chroma or FAISS. 
 
 conda activate mls2
 
 Nope! not any more ... 
 conda activate mylocalseer
+
+## Sunday, February 11, 2024
+
+* The documentation for [pdfminer.six](https://pdfminersix.readthedocs.io/en/latest/index.html) is useless. 
+* The documentation for [pypdf](https://pypdf.readthedocs.io/en/stable/index.html) is fantastic!
+
+I kinda doubt there one standard way to extract the text from each chapter that will work for every pdf file. Seems to me there are unique nuances to every pdf that could require code tweaks. But once you have extracted the text the way you want it, storing that text in some external file should only need to be done once. 
 
 ## Saturday, February 10, 2024
 
