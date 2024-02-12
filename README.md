@@ -11,6 +11,19 @@ conda activate mls2
 Nope! not any more ... 
 conda activate mylocalseer
 
+## Monday, February 12, 2024
+
+* mamba install conda-forge::einops
+* mamba install conda-forge::langchain
+* pip install langchain-openai
+* mamba install conda-forge::chromadb
+
+Today I installed LangChain (version 0.1.6) because I want to show an example of how they implement RAG. 
+
+I'm going to try and build a simple chatbot that can answer questions about a local pdf WITHOUT using LangChain.
+
+What!? Installing LangChain wants to downgrade pypdf from the current 4.0.1 to 3.17.4 ... I sure hope it doesn't break anything.
+
 ## Sunday, February 11, 2024
 
 * The documentation for [pdfminer.six](https://pdfminersix.readthedocs.io/en/latest/index.html) is useless. 
