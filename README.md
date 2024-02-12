@@ -17,12 +17,15 @@ conda activate mylocalseer
 * mamba install conda-forge::langchain
 * pip install langchain-openai
 * mamba install conda-forge::chromadb
+* pip install langchainhub
 
 Today I installed LangChain (version 0.1.6) because I want to show an example of how they implement RAG. 
 
 I'm going to try and build a simple chatbot that can answer questions about a local pdf WITHOUT using LangChain.
 
 What!? Installing LangChain wants to downgrade pypdf from the current 4.0.1 to 3.17.4 ... I sure hope it doesn't break anything.
+
+I am really glad I began this process of 'implement yourself' the functionality provided by LangChain for building a RAG application.
 
 ## Sunday, February 11, 2024
 
