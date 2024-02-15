@@ -11,6 +11,42 @@ conda activate mls2
 Nope! not any more ... 
 conda activate mylocalseer
 
+## Thursday, February 15, 2024
+
+Continuing to explore the text splitting part of RAG. The notebook LangChain\5_Levels_Of_Text_Splitting.ipynb uses both LangChain and LLamaIndex. Current version of LLamaIndex on conda-forge is 0.9.48, and on pip it is 0.10.4 which is tagged as 'It is by far the biggest update to our Python package to date' ... https://github.com/run-llama/llama_index/releases. I am going to install the conda version.
+
+* mamba install conda-forge::llama-index
+
+This install down-graded scikit-learn frm 1.4.0 to 1.2.2.
+
+This notebook also required the installation of [Unstructered](https://unstructured-io.github.io/unstructured/)
+
+* pip install "unstructured[pdf]"
+
+Running the above performed a ton of changes! The existing library changes were ...
+
+      Attempting uninstall: Pillow
+        Found existing installation: Pillow 9.4.0
+        Uninstalling Pillow-9.4.0:
+          Successfully uninstalled Pillow-9.4.0
+      Attempting uninstall: onnxruntime
+        Found existing installation: onnxruntime 1.17.0
+        Uninstalling onnxruntime-1.17.0:
+          Successfully uninstalled onnxruntime-1.17.0
+      Attempting uninstall: pdfminer.six
+        Found existing installation: pdfminer.six 20231228
+        Uninstalling pdfminer.six-20231228:
+          Successfully uninstalled pdfminer.six-20231228
+
+Sigh ... now it is complaining about missing [tesseract](https://github.com/tesseract-ocr/tessdoc) Installation instructions for Ubuntu can be seen [here](https://tesseract-ocr.github.io/tessdoc/Installation.html)
+
+* sudo apt install tesseract-ocr
+* sudo apt install libtesseract-dev
+
+(Wow! Those two instructions above automatically came up! Is this Cody at work?? )
+
+
+
 ## Monday, February 12, 2024
 
 * mamba install conda-forge::einops
