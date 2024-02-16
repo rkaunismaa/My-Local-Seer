@@ -45,6 +45,10 @@ Sigh ... now it is complaining about missing [tesseract](https://github.com/tess
 
 (Wow! Those two instructions above automatically came up! Is this Cody at work?? )
 
+More installs! ...
+
+* mamba install conda-forge::python-dotenv
+
 
 
 ## Monday, February 12, 2024
