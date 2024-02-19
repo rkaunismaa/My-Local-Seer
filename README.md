@@ -11,6 +11,10 @@ conda activate mls2
 Nope! not any more ... 
 conda activate mylocalseer
 
+## Monday, February 19, 2024
+
+So once again I am coming across that 'they want me to use OpenAI, but I want to run everything locally' issue ... in this case, it is the OpenaIEmbeddings being substitued with [HuggingFaceEmbeddings](https://python.langchain.com/docs/integrations/text_embedding/huggingfacehub) ... 
+
 ## Thursday, February 15, 2024
 
 Continuing to explore the text splitting part of RAG. The notebook LangChain\5_Levels_Of_Text_Splitting.ipynb uses both LangChain and LLamaIndex. Current version of LLamaIndex on conda-forge is 0.9.48, and on pip it is 0.10.4 which is tagged as 'It is by far the biggest update to our Python package to date' ... https://github.com/run-llama/llama_index/releases. I am going to install the conda version.
