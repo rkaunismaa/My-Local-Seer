@@ -11,6 +11,10 @@ conda activate mls2
 Nope! not any more ... 
 conda activate mylocalseer
 
+## Friday, March 28, 2024
+
+Getting back to this cuz I really want to see how far I can take this effort ...
+
 ## Monday, February 19, 2024
 
 So once again I am coming across that 'they want me to use OpenAI, but I want to run everything locally' issue ... in this case, it is the OpenaIEmbeddings being substitued with [HuggingFaceEmbeddings](https://python.langchain.com/docs/integrations/text_embedding/huggingfacehub) ... 
