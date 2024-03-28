@@ -5,3 +5,5 @@ debug/
 LangChain/PaulGrahamEssayMedium/
 LangChain/figures/
 LangChain/static/
+
+LangChain/__pycache__/
